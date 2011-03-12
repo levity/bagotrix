@@ -10,8 +10,10 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Lawrence Wang"]
   s.date = %q{2011-03-12}
+  s.default_executable = %q{bagotrix}
   s.description = %q{require 'bagotrix'; Bagotrix.load 'my_snippet'}
   s.email = %q{lawrence@levityisland.com}
+  s.executables = ["bagotrix"]
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
@@ -24,6 +26,8 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "bagotrix.gemspec",
+    "bin/bagotrix",
     "lib/bagotrix.rb",
     "test/helper.rb",
     "test/test_bagotrix.rb"
